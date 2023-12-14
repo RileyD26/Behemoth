@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cameron's Scene.unity
+    guid: 4ebb005187b42804aafd9041a3c699f3
   m_configObjects: {}
