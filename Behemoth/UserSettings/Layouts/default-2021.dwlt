@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1360
     height: 677
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 321
     height: 627
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,22 +433,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes/Tyler's Scene
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes/Tyler's Scene
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\19788\Documents\GitHub\Behemoth\Behemoth
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 121}
-    m_SelectedIDs: 5c5d0000
-    m_LastClickedID: 23900
-    m_ExpandedIDs: 00000000405d0000425d0000445d0000605d0000
+    scrollPos: {x: 0, y: 93}
+    m_SelectedIDs: 90630000
+    m_LastClickedID: 25488
+    m_ExpandedIDs: 0000000062630000646300006663000082630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000405d0000425d0000445d0000
+    m_ExpandedIDs: 00000000626300006463000066630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -603,10 +603,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6c660000
-      m_LastClickedID: 26220
-      m_ExpandedIDs: 76bffffff6d8ffff62deffff50f8ffff9af9ffff22fbffff645a0000666100005e660000a0660000ae660000
+      scrollPos: {x: 0, y: 539}
+      m_SelectedIDs: 8aebffff
+      m_LastClickedID: -5238
+      m_ExpandedIDs: 22fbffffca5c0000b45e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -888,9 +888,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 28.124285, y: -13.495233, z: 106.60678}
+    m_Target: {x: 52.279186, y: 4.0875797, z: 141.02974}
     speed: 2
-    m_Value: {x: 28.124285, y: -13.495233, z: 106.60678}
+    m_Value: {x: 52.279186, y: 4.0875797, z: 141.02974}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -937,13 +937,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.11739211, y: -0.79862225, z: 0.16549145, w: 0.5666706}
+    m_Target: {x: -0.14826587, y: -0.84798425, z: 0.3137004, w: -0.40086433}
     speed: 2
-    m_Value: {x: 0.11738734, y: -0.79858977, z: 0.16548473, w: 0.5666476}
+    m_Value: {x: -0.14872433, y: -0.8473141, z: 0.31345254, w: -0.40210363}
   m_Size:
-    m_Target: 37.876797
+    m_Target: 6.984586
     speed: 2
-    m_Value: 37.876797
+    m_Value: 6.683814
   m_Ortho:
     m_Target: 0
     speed: 2
