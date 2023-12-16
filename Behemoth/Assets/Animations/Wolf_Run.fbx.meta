@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7d0c509464b09f644bfb9a643032d235
+guid: ca2c6d645e20d1f478b2e93c28ab2e49
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Wolf_Idle
-      takeName: Wolf_Idle
-      internalID: 2219115924650817687
+      name: Wolf_Run
+      takeName: Wolf_Run
+      internalID: 8767879777178937521
       firstFrame: 1
-      lastFrame: 500
+      lastFrame: 200
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
