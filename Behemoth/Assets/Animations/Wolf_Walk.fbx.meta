@@ -33,9 +33,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      internalID: 1827226128182048838
+      name: Wolf_Walk
+      takeName: Wolf_Walk
+      internalID: -885065559211878170
       firstFrame: 1
       lastFrame: 450
       wrapMode: 0
