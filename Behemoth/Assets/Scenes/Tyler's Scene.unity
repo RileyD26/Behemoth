@@ -1357,6 +1357,31 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &919132148788779854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9053976499884270912, guid: 3d9749179e012a746923f41541d52652, type: 3}
+  m_PrefabInstance: {fileID: 8171577537988951566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &919132148788779855
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148788779854}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd9bf4122a65de64087f848c6312c914, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &8171577537988951566
 PrefabInstance:
   m_ObjectHideFlags: 0
