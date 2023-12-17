@@ -11,6 +11,8 @@ public class Wolfai : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
+    Animator anim;
+
     //Patroling
     public Vector3 walkPoint;
     bool walkPointSet;
@@ -23,6 +25,11 @@ public class Wolfai : MonoBehaviour
     //States
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     private void Awake()
     {
@@ -47,12 +54,14 @@ public class Wolfai : MonoBehaviour
 
         if (walkPointSet)
             agent.SetDestination(walkPoint);
+        anim.SetBool("isWalking", true);
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
         //Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
+            anim.SetBool("isWalking", false);
     }
     private void SearchWalkPoint()
     {
